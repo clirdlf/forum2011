@@ -9,6 +9,15 @@
 // @import 'loader';
 @import 'navigation';
 
+:root {
+  --danger: #a1012d;
+}
+
+.btn-danger {
+  background-color: var(--danger);
+  border-color: var(--danger);
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
