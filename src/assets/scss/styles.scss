@@ -23,6 +23,12 @@ body {
   background: linear-gradient(180deg, #4a4b41, #9fa273);
 }
 
+.sidebar-header {
+  background-image: url('/assets/images/section-background.jpg');
+  background-repeat: none;
+  background-size: cover;
+}
+
 .bigred {
   color: #862317;
 }
