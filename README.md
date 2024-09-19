@@ -2,11 +2,14 @@
 
 Based on https://web.archive.org/web/20130106173806/http://www.diglib.org/forums/2011forum/
 
+
 ## Redirects
 
 https://dev.clir.org/dlf/1974-2 -> /sessions/supporting-digital-humanities-in-the-library/
 
-
+```
+RedirectMatch 301 ^/dlf-events/2011forum/(.*)$ https://forum2011.diglib.org/$1
+```
 
 This is scaffold for new projects using [11ty](https://www.11ty.dev/) with [Bootstrap](https://getbootstrap.com/docs/5.3/examples/) (building with [Vite](https://vitejs.dev/)) meant to deploy to [GitHub Pages](https://pages.github.com/). Also includes some basic [VSCode](https://code.visualstudio.com/) setup.
 
